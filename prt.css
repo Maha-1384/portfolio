@@ -1,36 +1,27 @@
-header {
-    position: relative;
-    display: inline-block;
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
 #hldng {
-    height: 400px;
-    width: 1350px;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
 }
 
 #name {
+    color: white;
+    border: 1px solid white;
+    padding: 40px;
     position: absolute;
-    top: 150px;
-    left: 550px;
-    height: 90px;
-    width: 250px;
-    border: 3px rgb(255, 255, 255) solid;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-#name:hover{
-    border: none;
-    font-size:50px;
-    font-style: italic;
-    color:gold ;
-    height: 100px;
-    width: 350px;
-    text-align: center;
-}
-
 .list {
-    border-radius: 15px;
     color: black;
     background-color: rgb(206, 206, 206);
     font-size: 30px;
@@ -72,28 +63,29 @@ a:hover {
 
 .all {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.foot{
+
+.foot {
     display: flex;
     justify-content: space-between;
-    border-radius: 9px;
     padding: 20px;
     background-color: rgb(189, 192, 192);
 }
-button{
+
+button {
     border: none;
     padding: 9px;
     font-weight: bold;
 }
-button:hover{
-    border-radius: 15px;
-    border: 3px darkred solid;
+
+button:hover {
     color: darkred;
     background-color: rgb(252, 164, 164);
 }
-i{ 
+
+i {
     padding: 13px;
     color: rgb(190, 81, 4);
-    text-align:right;
+    text-align: right;
 }
