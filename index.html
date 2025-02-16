@@ -1,68 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="prt.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css ">
     <title>PORTFOLIO</title>
 </head>
 
 <body>
-    <HEADER>
-        <div id="container">
-            <img src="HOLDING.jpg" alt="holding camera" id="hldng">
-            <div id="name">
-                <h1>MAHA MALIK</h1>
+    <HEADER id="h">
+        <div class="container-fluid p-0 m-0">
+            <div class="card p-0 m-0">
+                <img src="HOLDING.jpg" class="card-img rounded-0 " width="100%" alt="...">
+                <div class="p-0 m-0 card-img-overlay d-flex align-items-center justify-content-center text-white text-center">
+                <h3 class="card-title border p-2 p-sm-4 border-2 rounded rounded-2">MAHA MALIK</h3>
+                </div>
             </div>
-        </div>
-        <br>
-        <nav>
-            <ul class="list">
-                <li><a href="#">home</a></li>
-                <li><a href="#">services </a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-        
+        </div> 
     </HEADER>
-    <br>
-    <main>
-        <div class="all">
-            <div class="left">
-                <img src="BRG.jpg" alt="">
-                <img src="CUTNG.jpg" alt="">
-                <img src="CYCL.jpg" alt="">
-                <img src="DRWNG.jpg" alt="">
-                <img src="HND.jpg" alt="">
-            </div>
-            <div class="right">
-                <img src="HUS.jpg" alt="">
-                <img src="LV.jpg" alt="">
-                <img src="MAN.jpg" alt="">
-                <img src="TMTO.jpg" alt="">
-                <img src="GRL.jpg" alt="">
-            </div>
+
+    <nav>
+        <div class="container-fluid my-2 bg-secondary text-black fw-medium fs-5">
+            <ul class="navbar-nav py-1 d-flex flex-row justify-content-evenly align-items-center">
+                  <li >
+                    <a class="nav-link" id="hovi" href="#h">Home</a>
+                  </li>
+                  <li >
+                    <a class="nav-link" id="hovi" href="#g">Gallery</a>
+                  </li>
+                  <li >
+                    <a class="nav-link" id="hovi" href="#f">Contact</a>
+                  </li>
+            </ul>
         </div>
+    </nav>
+
+    <main id="g">
+        <div class="row row-cols-1 row-cols-md-2 g-0">
+            <div class="col">
+              <div class="card h-100">
+                <img src="DRWNG.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="CUTNG.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="CYCL.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="BRG.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="HND.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="GRL.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="TMTO.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="MAN.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="LV.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="HUS.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
     </main>
-    <br>
-    <footer>
-        <div class="foot">
-            <div>
-                <form action="#">
-                    <button><a href="#hldng">page up</a></button>
-                    <BUtton type="submit">SUBSCRIBE</BUtton>
-                    <Button type="submit">CONTACT US</ButtoN>
-                </form>
-            </div>
-            <div>
-                <a href="#"><i><b>https://1:5500/HTML/5porfolio/prt.html</b></i></a>
+
+    <footer id="f">
+        <div class="navbar bg-secondary p-0 m-0 mt-1 px-3">
+            <div class="container-fluid p-0 m-0">
+              <a class="navbar-brand" href="#"><i>https:porfolio/prt.html</i></a>
+                <span class="navbar-text">
+                    <BUtton type="submit" class="btn me-1 btn-outline-light">SUBSCRIBE</BUtton>
+                    <Button type="submit"class="btn btn-outline-light">CONTACT US</ButtoN>
+                </span>
             </div>
         </div>
-
     </footer>
-
 </body>
-
 </html>
